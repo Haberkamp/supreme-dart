@@ -8,5 +8,5 @@ module.exports = {
       url: '/dist',
     },
   },
-  plugins: ['@snowpack/plugin-svelte'],
+  plugins: ['@snowpack/plugin-svelte', '@snowpack/plugin-sass'],
 };
