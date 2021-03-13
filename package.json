@@ -22,6 +22,7 @@
   "homepage": "https://github.com/Haberkamp/supreme-dart#readme",
   "devDependencies": {
     "@snowpack/plugin-svelte": "^3.5.2",
+    "prettier-plugin-svelte": "^2.2.0",
     "snowpack": "^3.0.13"
   },
   "dependencies": {
