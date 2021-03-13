@@ -1,0 +1,29 @@
+{
+  "name": "darts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haberkamp/supreme-dart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haberkamp/supreme-dart/issues"
+  },
+  "homepage": "https://github.com/Haberkamp/supreme-dart#readme",
+  "devDependencies": {
+    "@snowpack/plugin-svelte": "^3.5.2",
+    "snowpack": "^3.0.13"
+  },
+  "dependencies": {
+    "svelte": "^3.35.0",
+    "svelte-spa-router": "^3.1.0"
+  }
+}
