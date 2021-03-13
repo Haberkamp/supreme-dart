@@ -1,14 +1,12 @@
 module.exports = {
-    mount: {
-        public: {
-            url: '/',
-            static: true
-        },
-        src: {
-            url: '/dist'
-        }
+  mount: {
+    public: {
+      url: '/',
+      static: true,
     },
-    plugins: [
-        '@snowpack/plugin-svelte'
-    ]
-}
+    src: {
+      url: '/dist',
+    },
+  },
+  plugins: ['@snowpack/plugin-svelte'],
+};
