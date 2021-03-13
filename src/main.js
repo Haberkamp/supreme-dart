@@ -1,3 +1,6 @@
+import bootstrap from 'bootstrap/dist/js/bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App.svelte';
 
 const app = new App({
@@ -12,3 +15,10 @@ if (import.meta.hot) {
     app.$destroy();
   });
 }
+
+const tooltipTriggerList = [].slice.call(
+  document.querySelectorAll('[data-bs-toggle="tooltip"]')
+);
+tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl);
+});
