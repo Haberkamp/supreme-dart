@@ -1,0 +1,9 @@
+node_modules/
+
+package-lock.json
+
+.git/
+
+# ignoring vendors (bootstrap 5)
+src/scripts/vendors
+src/styles/vendors

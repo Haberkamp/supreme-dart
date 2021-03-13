@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "snowpack dev",
-    "build": "snowpack build"
+    "build": "snowpack build",
+    "cs:check": "prettier --config ./prettier.config.js --check .",
+    "cs:fix": "prettier --config ./prettier.config.js --write ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,7 @@
     "snowpack": "^3.0.13"
   },
   "dependencies": {
+    "prettier": "^2.2.1",
     "svelte": "^3.35.0",
     "svelte-spa-router": "^3.1.0"
   }
