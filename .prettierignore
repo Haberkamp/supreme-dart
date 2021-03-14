@@ -4,6 +4,8 @@ package-lock.json
 
 .git/
 
+build/
+
 # ignoring vendors (bootstrap 5)
 src/scripts/vendors
 src/styles/vendors
