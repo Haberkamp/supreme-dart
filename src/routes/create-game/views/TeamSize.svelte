@@ -7,6 +7,7 @@
   onMount(() => {
     dispatch('routeEvent', {
       title: 'Team size',
+      backLink: '/',
       currentStep: 1,
     });
   });
