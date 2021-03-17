@@ -6,7 +6,7 @@
 
   onMount(() => {
     dispatch('routeEvent', {
-      title: 'Create Team',
+      title: 'Create team',
       currentStep: 3,
       backLink: '/create-game/game-mode',
     });
