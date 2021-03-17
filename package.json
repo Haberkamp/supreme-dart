@@ -29,7 +29,9 @@
   "dependencies": {
     "@popperjs/core": "^2.9.1",
     "bootstrap": "^5.0.0-beta2",
+    "bootstrap-icons": "^1.4.0",
     "prettier": "^2.2.1",
+    "snowpack-plugin-relative-css-urls": "^1.1.1",
     "svelte": "^3.35.0",
     "svelte-preprocess": "^4.6.9",
     "svelte-spa-router": "^3.1.0"
