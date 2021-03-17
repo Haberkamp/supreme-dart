@@ -4,5 +4,5 @@
 </script>
 
 <span>
-  Step {currentStep} from {maxSteps}
+  Step {currentStep} of {maxSteps}
 </span>
