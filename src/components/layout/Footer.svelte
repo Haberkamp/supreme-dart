@@ -13,6 +13,7 @@
     background-color: var(--bs-dark);
     color: var(--bs-light);
     width: 100vw;
+    max-width: 100%;
     text-align: center;
     padding: 24px 0;
   }
