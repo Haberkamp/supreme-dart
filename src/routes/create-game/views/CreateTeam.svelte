@@ -1,27 +1,3 @@
-<div class='create-team'>
-  <div class='card'>
-    <div class='card-body'>
-      <h2 class='card-title'>Team 1</h2>
-      <label for='team-1-player-1' class='form-label'>Player 1</label>
-      <input id='team-1-player-1' type='text' class='form-control'>
-    </div>
-  </div>
-
-  <div class='card'>
-    <div class='card-body'>
-      <h2 class='card-title'>Team 2</h2>
-      <label for='team-2-player-2' class='form-label'>Player 2</label>
-      <input id='team-2-player-2' type='text' class='form-control'>
-    </div>
-  </div>
-
-  <a href='/'
-    use:link
-    class='btn btn-primary'>
-    Start game
-  </a>
-</div>
-
 <script>
   import { onMount, createEventDispatcher } from 'svelte';
   import { link } from 'svelte-spa-router';
@@ -37,7 +13,27 @@
   });
 </script>
 
-<style lang='scss'>
+<div class="create-team">
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">Team 1</h2>
+      <label for="team-1-player-1" class="form-label">Player 1</label>
+      <input id="team-1-player-1" type="text" class="form-control" />
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2 class="card-title">Team 2</h2>
+      <label for="team-2-player-2" class="form-label">Player 2</label>
+      <input id="team-2-player-2" type="text" class="form-control" />
+    </div>
+  </div>
+
+  <a href="/" use:link class="btn btn-primary"> Start game </a>
+</div>
+
+<style lang="scss">
   .create-team {
     display: grid;
     grid-template-columns: 1fr;
