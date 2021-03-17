@@ -1,8 +1,7 @@
-import Welcome from '@/routes/welcome/Welcome.svelte';
-import CreateGame from '@/routes/create-game/CreateGame.svelte';
+import CreateGame from '@/routes/create-game/pages/CreateGame.svelte';
 
 export default {
-  '/': Welcome,
+  '/': CreateGame,
   '/create-game': CreateGame,
   '/create-game/*': CreateGame,
 };

@@ -5,15 +5,14 @@
   import Footer from '@/components/layout/Footer.svelte';
 </script>
 
-<div id="app">
+<div class="app__area">
   <Router {routes} />
 </div>
 
 <Footer />
 
 <style>
-  #app {
-    width: 100vw;
+  .app__area {
     height: 100vh;
   }
 </style>
