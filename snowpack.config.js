@@ -14,5 +14,9 @@ module.exports = {
   devOptions: {
     open: 'none',
   },
-  plugins: ['@snowpack/plugin-svelte', '@snowpack/plugin-sass'],
+  plugins: [
+    '@snowpack/plugin-svelte',
+    '@snowpack/plugin-sass',
+    'snowpack-plugin-relative-css-urls',
+  ],
 };
