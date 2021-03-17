@@ -31,7 +31,7 @@
       />
 
       <a href={pageInfo.backLink} use:link class="create-game__back-link"
-        >Go back</a
+        ><i class="bi bi-arrow-left me-2" />Go back</a
       >
     </div>
   </div>
