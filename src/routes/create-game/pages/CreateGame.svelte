@@ -39,7 +39,7 @@
 
 <style lang="scss">
   .create-game {
-    padding: 80px 0;
+    padding: 80px 0 160px;
     height: 100%;
 
     .container {
@@ -56,6 +56,7 @@
 
     &__body {
       align-self: stretch;
+      margin-bottom: 32px;
     }
 
     &__stepper {
